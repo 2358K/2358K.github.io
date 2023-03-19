@@ -1,0 +1,74 @@
+
+/* Google Calendar stuff */
+.responsiveCal {
+    position: relative; 
+    padding-bottom: 100%;
+    padding-left: 100%;
+    padding-right: 50%;
+    height: 0;
+    }
+     
+    .responsiveCal iframe {
+    position: absolute; 
+    top:0; 
+    left: 0;  
+    height: 100%; 
+    width: 100%;
+    }
+    
+    @media all and (min-width: 768px) {
+        .deskContent {display:block;}
+        .phoneContent {display:none;}
+    }
+    
+    @media all and (max-width: 1000px) {
+        .deskContent {display:none;}
+        .phoneContent {display:block;}
+    }
+
+/* Image Container */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../intro_image_1.jpg");
+    height: 900px;
+}
+
+.title-text-1 {
+    position: relative;
+    color:white;
+    text-shadow:-4px 4px 4px rgb(0, 0, 0);
+    font-size:5vw;
+    bottom:-5vw;
+    padding-left:2vw;
+    /* padding-bottom:0vw; */
+    box-decoration-break:clone;
+}
+
+/* Home Page Title */
+.hp-title {
+    font-family: 'Abril Fatface';
+    text-shadow:2px 2px 2px rgb(88, 88, 88);
+    font-size: 70px;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #000000;
+    text-rendering: optimizeLegibility;
+}
+
+/* Home Page SubTitle */
+.hp-subtitle {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #000000;
+    text-rendering: optimizeLegibility;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
